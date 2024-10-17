@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "lucide-react": "^0.453.0",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
