@@ -1,6 +1,6 @@
-'use client';
 
 import Image from "next/image";
+import { metadata } from "./layout";
 
 export default function Home() {
   return (
@@ -26,6 +26,7 @@ export default function Home() {
         </div>
         <div className="w-full h-full absolute top-0 left-0">
           <video 
+          preload={metadata}
             src="/videos/videobg.mp4" 
             className="w-full h-full object-cover opacity-40" // Reduced opacity
             autoPlay 
