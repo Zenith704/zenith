@@ -20,9 +20,9 @@ const Navbar = () => {
       >
       <div className='flex flex-row h-[3rem] items-center justify-evenly'>
         <div className='text-white'>
-          Zenith
+          LOGO
         </div>
-        <div className='hidden md:flex w-[60%] items-center justify-between'>
+        <div className='hidden md:flex w-[30%] items-center justify-between'>
           {
             NavItems.map((item, index)=>(
               <ul className='text-white' key={index}>
@@ -33,21 +33,10 @@ const Navbar = () => {
             ))
           }
         </div>
-        <div></div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-          <div className='md:hidden my-2'>
+        <div className='md:hidden my-2'>
             <ToggleMenu Click={toggleNav} />
           </div>
+      </div>
         <div className='w-full h-max md:hidden flex flex-col items-center justify-evenly gap-5'>
         {NavItems.map((items, index) => (
             <ul key={index} className='flex gap-2 hover:text-neutral-500 active:underline pb-2 items-center text-white'>
