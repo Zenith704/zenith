@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl tracking-wider">
             About Zenith spark <span className="block my-5">Station</span>
           </h1>
-          <span className="bg-neutral-500 w-1/2 h-[1px]"></span>
+          <span className="bg-neutral-400 w-1/2 h-[1px]"></span>
           <article className=" text-lg md:text-xl">
             Welcome to our innovative company designed for ambitious investors! <b>Zenith Spark Station</b> is an investment firm dedicated to helping its members discover promising digital assets and successfully finance them through private transactions. **Zenith Spark Station** is fully legal and registered in the UK under company number 10619560.
             <div className="my-4"></div>
