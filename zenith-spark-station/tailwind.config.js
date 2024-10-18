@@ -11,7 +11,7 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customGray: '#F2F4F5',
-        customAmber: '#F3DE6D',
+        customAmber: '#C2A74D',
         customPink: '#FFE7D6',
         customBlue: '#4A4ABF'
       },
